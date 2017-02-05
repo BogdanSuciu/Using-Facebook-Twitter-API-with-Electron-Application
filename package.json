@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "devDependencies": {
-    "electron-prebuilt": "^0.33.4",
+    "electron-prebuilt": "~> 0.33.4",
     "fb": "^0.7.3",
     "node-twitter-api": ""
   },
