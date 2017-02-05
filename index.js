@@ -5,8 +5,8 @@ var events = require('events');
 var eventEmitter = new events.EventEmitter();
 var twitterAPI = require('node-twitter-api');
 var twitter = new twitterAPI({
-    consumerKey: 'pwcgi6F2Iat8B6sxbqBHDTod0',
-    consumerSecret: 'IlSHOiH28fWCtSYRnKe5AolTCfMhCxmqoDOMoNAmorpVzLbfRC',
+    consumerKey: '<CONSUMER_KEY>',
+    consumerSecret: '<CONSUMER_SECRET>',
     requestToken: '',
     callback: 'oob'
 });
